@@ -40,13 +40,13 @@ body {
   margin: 0 auto !important;
   /* makes it centered */
   clear: both !important;
+  padding: 40px 0;
 }
 
 .content {
   max-width: 600px;
   margin: 0 auto;
   display: block;
-  padding: 40px;
   line-height: 1.4em;
 }
 
@@ -61,7 +61,6 @@ body {
 
 .content-wrap {
   padding: 40px;
-  margin-top: 40px;
 }
 
 .content-block {
@@ -198,6 +197,7 @@ a {
   .container {
     padding: 0 !important;
     width: 100% !important;
+    padding: 0 !important;    
   }
   .keyline {
     height: 1px;
