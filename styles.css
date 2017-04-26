@@ -94,23 +94,14 @@ body {
 /* -------------------------------------
     TYPOGRAPHY
 ------------------------------------- */
-h1, h2 {
+h1 {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: 0;
   line-height: 1.2em;
   font-weight: 400;
-}
-
-h1 {
   font-size: 28px;
-}
 
-h2 {
-  font-size: 12px;
-  font-weight: 600;
-  color: #BFBFBF;
 }
-
 
 p {
   color: #666666;
@@ -137,13 +128,11 @@ a {
   border-width: 10px 20px;
   line-height: 2em;
   font-weight: 600;
-  font-size: 11px;
   text-align: center;
   cursor: pointer;
   letter-spacing: .2px;
   display: inline-block;
   border-radius: 3px;
-  text-transform: uppercase;
 }
 
 /* -------------------------------------
@@ -155,7 +144,7 @@ a {
 }
 
 .first {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .aligncenter {
@@ -185,12 +174,6 @@ a {
   padding: 10px;
   text-align: center;
   border-radius: 3px 3px 0 0;
-}
-.alert a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
 }
 .alert.alert-warning {
   background-color: #FF9F00;
