@@ -28,11 +28,11 @@ table td {
 ------------------------------------- */
 body {
   background-color: #F9F9F9;
+  margin-top: 40px;
 }
 .body-wrap {
   background-color: #F9F9F9;
   width: 100%;
-  padding-top: 40px;
 }
 
 .container {
@@ -187,14 +187,12 @@ a {
 ------------------------------------- */
 @media only screen and (max-width: 640px) {
   body {
+    margin-top: 5px !important;
     padding: 0 !important;
   }
 
   h1 {
     font-size: 22px !important;
-  }
-  .body-wrap {
-    padding-top: 5px !important;
   }
 
   .container {
