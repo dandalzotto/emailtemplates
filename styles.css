@@ -66,6 +66,9 @@ body {
 .content-block {
   padding: 0 0 30px;
 }
+.content-block p a {
+  color: #666666;
+}
 
 .header {
   width: 100%;
