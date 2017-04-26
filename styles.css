@@ -47,6 +47,7 @@ body {
   margin: 0 auto;
   display: block;
   padding: 40px;
+  line-height: 1.4em;
 }
 
 /* -------------------------------------
@@ -105,11 +106,6 @@ h1 {
 
 p {
   color: #666666;
-  font-weight: normal;
-}
-p {
-  margin-left: 5px;
-  list-style-position: inside;
 }
 
 /* -------------------------------------
