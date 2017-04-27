@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Actionable emails e.g. reset password</title>
+<title>Template - Invitation</title>
 <link href="styles.css" media="all" rel="stylesheet" type="text/css" />
 </head>
 
@@ -16,44 +16,27 @@
 			<div class="content">
 				<table class="main" width="100%" cellpadding="0" cellspacing="0" itemprop="action" itemscope itemtype="http://schema.org/ConfirmAction">
 					<tr>
-						<td class="alert alert-good">
-							Contract signed on {date}
-						</td>
-					</tr>
-					<tr>
 						<td class="content-wrap">
 							<meta itemprop="name" content="Confirm Email"/>
 							<table width="100%" cellpadding="0" cellspacing="0">
-
 								<tr>
-									<td class="content-block">
-										<h1>{templateTitle} is signed and complete</h1>
+									<td class="content-block from">
+										<b>{organization}</b>
 									</td>
 								</tr>
 								<tr>
 									<td class="content-block">
-										 <p>A copy of the completed contract is attached to this email.</p>
+										<h1>{templateTitle} template received</h1>
 									</td>
 								</tr>
 								<tr>
 									<td class="content-block">
-										 <p><strong>{P1.partyName}</strong></p>
-										 <p>{P1.legalName}</p>
-										 <p>{P1.nameAndTitle}</p>
-										 <p><a href="mailto:'"{P1.email}"'">{P1.email}</a></p>
-									</td>
-								</tr>
-								<tr>
-									<td class="content-block keyline-above">
-										 <p><strong>{P2.partyName}</strong></p>
-										 <p>{P2.legalName}</p>
-										 <p>{P2.nameAndTitle}</p>
-										 <p><a href="mailto:'"{P2.email}"'">{P2.email}</a></p>
+										 {fromName} has shared a contract template with you. To review and collaborate, tap the button below.
 									</td>
 								</tr>
 								<tr>
 									<td class="content-block last" itemprop="handler" itemscope itemtype="http://schema.org/HttpActionHandler">
-										<a href="https://getoutlaw.com/deals/{dealID}" class="btn-primary" itemprop="url">View Contract</a>
+										<a href="https://getoutlaw.com/invitation/{inviteID}" class="btn-primary" itemprop="url">Review Template</a>
 									</td>
 								</tr>
 							</table>
