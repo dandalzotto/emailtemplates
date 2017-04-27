@@ -5,7 +5,6 @@
 * {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #404040;
   box-sizing: border-box;
   font-size: 14px;
 }
@@ -28,6 +27,7 @@ table td {
 ------------------------------------- */
 body {
   background-color: #F9F9F9;
+  color: #404040;
 }
 p {
   display: block;
@@ -61,14 +61,13 @@ p {
   background-color: #fff;
   border: 1px solid #eee;
   border-radius: 3px;
-  color: #666666;
+  color: #666;
 }
 .content-wrap {
   padding: 35px 40px 35px 40px;
 }
 .content-block {
   padding-bottom: 20px;
-  color: #666666;
 }
 /*used on .content-blocks*/
 .keyline-above {
@@ -92,6 +91,7 @@ p {
 .footer td {
   color: #BFBFBF;
   font-size: 13px;
+  text-decoration: none;
 }
 
 /* -------------------------------------
@@ -105,13 +105,13 @@ h1 {
   font-size: 28px;
   border-bottom: 1px solid #eee;
   padding-bottom: 20px;
+  color: #404040;
 }
 /* -------------------------------------
     LINKS & BUTTONS
 ------------------------------------- */
-.content-block a {
-  color: #299FFF !important;
-  text-decoration: underline;
+p a {
+  color: #666;
 }
 .btn-primary {
   text-decoration: none;
@@ -126,9 +126,6 @@ h1 {
   letter-spacing: .2px;
   display: inline-block;
   border-radius: 3px;
-}
-a.btn-primary {
-  color: #fff !important;
 }
 
 /* -------------------------------------
@@ -156,7 +153,6 @@ a.btn-primary {
   text-align: center;
   border-radius: 3px 3px 0 0;
 }
-
 .alert a {
   color: #fff !important;
 }
