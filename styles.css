@@ -28,7 +28,6 @@ table td {
 ------------------------------------- */
 body {
   background-color: #F9F9F9;
-  padding-top: 40px;
 }
 p {
   display: block;
@@ -37,6 +36,7 @@ p {
 .body-wrap {
   background-color: #F9F9F9;
   width: 100%;
+  padding-top: 40px !important;
 }
 
 .container {
@@ -175,11 +175,13 @@ a.btn-primary {
 ------------------------------------- */
 @media only screen and (max-width: 640px) {
   body {
-    margin-top: 5px !important;
     padding: 0 !important;
   }
   h1 {
     font-size: 22px !important;
+  }
+  .body-wrap {
+    padding-top: 5px !important;
   }
   .container {
     padding: 0 !important;
