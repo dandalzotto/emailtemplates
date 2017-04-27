@@ -110,7 +110,7 @@ h1 {
 /* -------------------------------------
     LINKS & BUTTONS
 ------------------------------------- */
-p a {
+.content-block p a {
   color: #666;
 }
 .btn-primary {
@@ -147,7 +147,7 @@ p a {
     Change the class depending on warning email, good email or bad email
 ------------------------------------- */
 .alert {
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
   font-weight: 500;
   padding: 10px;
