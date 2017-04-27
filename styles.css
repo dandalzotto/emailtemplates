@@ -111,7 +111,7 @@ h1 {
     LINKS & BUTTONS
 ------------------------------------- */
 .content-block p a {
-  color: #666;
+  color: #666 !important;
 }
 .btn-primary {
   text-decoration: none;
