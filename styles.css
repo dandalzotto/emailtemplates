@@ -28,7 +28,11 @@ table td {
 ------------------------------------- */
 body {
   background-color: #F9F9F9;
-  margin-top: 40px;
+  padding-top: 40px;
+}
+p {
+  display: block;
+  padding-bottom: 2px;
 }
 .body-wrap {
   background-color: #F9F9F9;
@@ -57,31 +61,23 @@ body {
   background-color: #fff;
   border: 1px solid #eee;
   border-radius: 3px;
+  color: #666666;
 }
-
 .content-wrap {
   padding: 40px;
 }
-
 .content-block {
-  padding: 0 0 30px;
-}
-.content-block p a {
+  padding-bottom: 20px;
   color: #666666;
 }
-
-.header {
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.keyline {
-  height: 1px;
-  width: 100%;
+/*used on .content-blocks*/
+.keyline-above {
   border-top: 1px solid #eee;
-  padding-bottom: 30px;
+  padding-top: 20px;
 }
-
+.last {
+  padding-bottom:5px;
+}
 .footer {
   width: 100%;
   clear: both;
@@ -104,13 +100,9 @@ h1 {
   line-height: 1.2em;
   font-weight: 400;
   font-size: 28px;
-
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
 }
-
-p {
-  color: #666666;
-}
-
 /* -------------------------------------
     LINKS & BUTTONS
 ------------------------------------- */
@@ -118,7 +110,6 @@ a {
   color: #299FFF;
   text-decoration: underline;
 }
-
 .btn-primary {
   text-decoration: none;
   color: #FFF;
@@ -137,27 +128,12 @@ a {
 /* -------------------------------------
     OTHER STYLES THAT MIGHT BE USEFUL
 ------------------------------------- */
-.last {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.first {
-  padding-bottom: 10px;
-}
-
-.aligncenter {
-  text-align: center;
-}
-
 .alignright {
   text-align: right;
 }
-
 .alignleft {
   text-align: left;
 }
-
 .clear {
   clear: both;
 }
@@ -184,7 +160,6 @@ a {
   background-color: #68B90F;
 }
 
-
 /* -------------------------------------
     RESPONSIVE AND MOBILE FRIENDLY STYLES
 ------------------------------------- */
@@ -193,37 +168,17 @@ a {
     margin-top: 5px !important;
     padding: 0 !important;
   }
-
   h1 {
     font-size: 22px !important;
   }
-
   .container {
     padding: 0 !important;
     width: 100% !important;
   }
-  .keyline {
-    height: 1px;
-    width: 100%;
-    border-top: 1px solid #eee;
-    padding-bottom: 20px;
-  }
-
   .content {
     padding: 0 !important;
   }
-
   .content-wrap {
     padding: 20px !important;
   }
-
-  .content-block {
-    padding-bottom: 20px !important;
-  }
-  .last {
-    padding-bottom: 10px !important;
-  }
-
 }
-
-/*# sourceMappingURL=styles.css.map */
