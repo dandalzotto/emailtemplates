@@ -116,8 +116,8 @@ p a {
 .btn-primary {
   text-decoration: none;
   color: #FFF;
-  background-color: #299FFF;
-  border: solid #299FFF;
+  background-color: #854ad3;
+  border: solid #854ad3;
   border-width: 10px 20px;
   line-height: 2em;
   font-weight: 600;
@@ -126,6 +126,7 @@ p a {
   letter-spacing: .2px;
   display: inline-block;
   border-radius: 3px;
+  margin-top: 20px;
 }
 
 /* -------------------------------------
@@ -159,11 +160,11 @@ p a {
 .alert.alert-warning {
   background-color: #FF9F00;
 }
-.alert.alert-bad {
-  background-color: #D0021B;
+.alert.alert-done {
+  background-color: #333;
 }
 .alert.alert-good {
-  background-color: #68B90F;
+  background-color: #299FFF;
 }
 
 /* -------------------------------------
